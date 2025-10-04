@@ -4,12 +4,45 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
-  <title>APRENDIENDO TAILWIND</title>
+  <title>FLEXBOX</title>
 </head>
 <body>
 
-  <h1>RAMA main</h1>
+  <div class="flex place-content-between ">
+    <div class="card  bg-red-400">$</div>
+    <div class="card  bg-red-400">#</div>
+    <div class="card  bg-red-400">&</div>
+  </div>  
 
+  <div class="flex place-content-around gap-4">
+    <div class="card bg-orange-300">A</div>
+    <div class="card bg-orange-300">B</div>
+    <div class="card bg-orange-300">C</div>
+  </div>
+
+  <div class="flex flex-wrap flex-col gap-4">
+    <div class="card bg-emerald-300 grow shrink-0">1</div>
+    <div class="card bg-emerald-300 grow">2</div>
+    <div class="card bg-emerald-300 grow">3</div>
+  </div>
+
+  <div class="flex flex-row gap-6">
+    <div class="card bg-purple-400">x</div>
+    <div class="card bg-purple-400 self-center">y</div>
+    <div class="card bg-purple-400">z</div>
+  </div>
+
+  <div class="flex items-start place-content-between border-2 border-blue-800 h-[200px]">
+    <div class="card bg-lime-600 ">0</div>
+    <div class="card bg-lime-600 self-center">9</div>
+    <div class="card bg-lime-600 self-end">8</div>
+  </div>
+
+  <div class="flex gap-4">
+    <div class="card bg-red-600 basis-1/4">F</div>
+    <div class="card bg-red-600 basis-1/4">G</div>
+    <div class="card bg-red-600 basis-1/2">H</div>
+  </div>
 </body>
 </body>
 </html>
