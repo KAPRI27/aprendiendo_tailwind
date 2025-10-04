@@ -1,15 +1,23 @@
 <!doctype html>
-<html>
+<html lang="en" class="">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
-  <title>APRENDIENDO TAILWIND</title>
+  <title>DARK MODE</title>
 </head>
-<body>
+<body class="dark:bg-slate-900">
+  <label for="darkmode" class="dark:text-white  bg-red-400">Dark Mode</label>
+  <input type="checkbox" id="darkmode">
 
-  <h1>RAMA main</h1>
+  <article class="w-[400px] mt-10 border rounded-lg border-rose-600 p-3 mx-auto dark:text-white ">
+    <h2 class="dark:text-red-300 text-red-600 font-bold">Título</h2>
+    <p class=" dark:text-blue-300 text-blue-900">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi unde, optio sed molestiae voluptate excepturi quia labore neque incidunt. Nesciunt ipsam labore at quas optio obcaecati ad deleniti repudiandae quos?</p>
 
+  </article>
+
+
+  <script src="./script.js"></script>
 </body>
-</body>
+
 </html>
